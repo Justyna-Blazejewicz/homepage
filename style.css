@@ -17,3 +17,52 @@
     color: #000000;
     text-align: center;
 }
+
+nav a {
+    color:black;
+}
+
+.links {
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.links__introduction {
+    background:#553b03;
+}
+
+.links__weddingplace {
+    background: #585858;
+}
+
+.links__menu {
+    background: #ba88fc;
+}
+
+.links__weddingtables {
+    background: #a72f7f;
+}
+
+.links__weddingbinding {
+    background: #281d41;
+}
+
+.links__ceremony {
+    background: #0e0774;
+}
+
+.links__newlywedslook {
+    background: #09e1e9;
+}
+
+.links__decorations {
+    background: #69cca3;
+}
+
+.links__printing {
+    background: #118320;
+}
+
+.links__others {
+    background: #ff8800;
+}
