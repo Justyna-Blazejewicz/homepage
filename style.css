@@ -18,51 +18,92 @@
     text-align: center;
 }
 
+.main_page {
+    color:#8a6006;
+}
+
 nav a {
-    color:black;
+    color:white;
 }
 
 .links {
     text-align: center;
-    margin: 10px 40px;
 }
 
 .links__introduction {
-    background:#553b03;
+    background:#8a6006;
+    padding: 10px 70px;
 }
 
 .links__weddingplace {
     background: #585858;
+    padding: 10px 23px;
 }
 
 .links__menu {
     background: #ba88fc;
+    padding: 10px 71px;
 }
 
 .links__weddingtables {
     background: #a72f7f;
+    padding: 10px 45px;
 }
 
 .links__weddingbinding {
     background: #281d41;
+    padding: 10px 41px;
 }
 
 .links__ceremony {
     background: #0e0774;
+    padding: 10px 55px;
 }
 
 .links__newlywedslook {
     background: #09e1e9;
+    padding: 10px 56px;
 }
 
 .links__decorations {
     background: #69cca3;
+    padding: 10px 57px;
 }
 
 .links__printing {
     background: #118320;
+    padding: 10px 58px;
 }
 
 .links__others {
     background: #ff8800;
+    padding: 10px 53px;
 }
+
+.margin {
+    margin: 40px 0px;
+}
+
+.weddingdate {
+    text-align: center;
+}
+
+.weddingdate__mostimportant {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #8a6006;
+    padding: 10px;
+}
+
+.titleintroduction {
+    color: #8a6006;
+    text-align: center;
+}
+
+.weddingdate__interestinginfo {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    border: 3px solid #8a6006;
+    padding: 10px;
