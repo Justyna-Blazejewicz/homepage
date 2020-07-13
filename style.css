@@ -18,8 +18,12 @@
     text-align: center;
 }
 
-.main_page {
+.main_page-1 {
     color:#8a6006;
+}
+
+.main_page-2 {
+    color:#585858;
 }
 
 nav a {
@@ -107,3 +111,35 @@ nav a {
     text-align: center;
     border: 3px solid #8a6006;
     padding: 10px;
+}
+
+.titleweddingplace {
+    color: #585858;
+    text-align: center;
+}
+
+.weddingplace {
+    text-align: center;
+}
+
+.weddingplace__mostimportant {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #585858;
+    padding: 10px;
+}
+
+.weddingplace__data {
+    margin-left: 20vw;
+    margin-top: 40px;
+}
+
+.weddingplace__places {
+    text-align: center;
+}
+
+.weddingplace__places--place {
+    display: inline;
+    margin: 20px 80px;
+}
