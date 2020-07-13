@@ -127,7 +127,9 @@ nav a {
     width: 30%;
     text-align: center;
     border: 3px solid #585858;
-    padding: 10px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .weddingplace__data {
