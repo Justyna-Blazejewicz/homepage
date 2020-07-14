@@ -201,12 +201,20 @@ nav a {
     padding: 10px;
 }
 
+.menu__mostimportant--2 {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    border: 3px solid #ba88fc;
+    padding: 10px;
+}
+
 .menu__arrangements {
     margin: auto;
     width: 30%;
     text-align: center;
     border: 3px solid #ba88fc;
-    padding-bottom: 60px;
+    padding-bottom: 500px;
     padding-left: 20px;
     padding-right: 20px;
 }
