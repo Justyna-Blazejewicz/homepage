@@ -180,6 +180,7 @@ nav a {
 .menu {
     text-align: center;
     color: #ba88fc;
+    margin-bottom: 20px;
 }
 
 .menu__p {
@@ -208,4 +209,31 @@ nav a {
     padding-bottom: 60px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.menu__buffet {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    border: 3px solid #ba88fc;
+    padding-bottom: 20px;
+}
+
+.menu__buffet--question {
+    display: inline;
+    color: #ba88fc;
+    padding-top: 20px;
+    margin: 0px 50px; 
+}
+
+.menu__buffet--arrangements {
+    margin: auto;
+    color: #ba88fc;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #ba88fc;
+    padding-bottom: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
 }
