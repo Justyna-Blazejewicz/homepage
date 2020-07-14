@@ -30,6 +30,10 @@
     color:#585858;
 }
 
+.main_page-3 {
+    color:#ba88fc;
+}
+
 nav a {
     color:white;
 }
@@ -165,4 +169,43 @@ nav a {
 .weddingplace__places--place {
     display: inline;
     margin: 20px 80px;
+}
+
+.titlemenu {
+    color: #ba88fc;
+    text-align: center;
+}
+
+
+.menu {
+    text-align: center;
+    color: #ba88fc;
+}
+
+.menu__p {
+    text-align: center;
+}
+
+.menu__data {
+    margin-left: 20vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.menu__mostimportant {
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    border: 3px solid #ba88fc;
+    padding: 10px;
+}
+
+.menu__arrangements {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    border: 3px solid #ba88fc;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
