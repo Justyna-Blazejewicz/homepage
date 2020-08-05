@@ -14,7 +14,7 @@ const title = document.querySelector('.title');
 
 console.log (title);
 
-title.innerHTML=`Cześć, nazywam się ${name} i mam ${age} lata.<br> Ze mną zaplanujesz swoje wesele od ${from} do ${to}!`
+title.innerHTML= `Tu zaplanujesz swoje wesele od ${from} do ${to}!`
 
 function calculate(myNumber){
     return myNumber*7;
