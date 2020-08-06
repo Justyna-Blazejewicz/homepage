@@ -14,8 +14,6 @@ const title = document.querySelector('.title');
 
 console.log (title);
 
-title.innerHTML= `Tu zaplanujesz swoje wesele od ${from} do ${to}!`
-
 function calculate(myNumber){
     return myNumber*7;
 }

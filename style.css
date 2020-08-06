@@ -3,7 +3,6 @@
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100vw 100vh;
 
 }
 
@@ -11,6 +10,7 @@
     color: #000000;
     text-align: center;
     margin-bottom: 60px;
+    font-size: 70px;
 }
 
 #footer {
@@ -110,7 +110,18 @@ nav a {
 }
 
 .margin {
-    margin: 40px 0px;
+    background: #ffffff7e;
+    height: 40px;
+    padding-top: 25px;
+}
+
+.info {
+    width: 60%;
+    text-align: center;
+    margin: 200px auto 0px auto;
+    font-size: 30px;
+    background: #ffffff7e;
+    display: block;
 }
 
 .weddingdate {
