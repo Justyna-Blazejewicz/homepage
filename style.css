@@ -6,6 +6,13 @@
 
 }
 
+.body__introduction {
+    background-image: url('Introduction.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .title {
     color: #000000;
     text-align: center;
@@ -116,7 +123,6 @@ nav a {
 }
 
 .info {
-    width: 60%;
     text-align: center;
     margin: 200px auto 0px auto;
     font-size: 30px;
@@ -127,6 +133,12 @@ nav a {
 .weddingdate {
     text-align: center;
     color: #8a6006;
+}
+
+.weddingdate__transparent-background {
+    background: #ffffff3f;
+    width: 85%;
+    margin: auto;
 }
 
 .weddingdate__p {
@@ -143,8 +155,9 @@ nav a {
 }
 
 .titleintroduction {
-    color: #8a6006;
+    color: #ffffff;
     text-align: center;
+    font-size: 70px;
 }
 
 .weddingdate__interestinginfo {
