@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terminarz ślubny</title>
+    <title>Miejsce uroczystości - Terminarz ślubno-weselny</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="body__wedding-place">
     <header>
       <nav>
-        <a href="index.html" class="main_page-2"><b>Spis treści</b></a>
+        <a href="index.html" class="main_page-2"><b>Strona główna</b></a>
       </nav>
     </header>
     <main>
       <header>
         <h1 class="titleweddingplace"><i>Miejsce uroczystości</i></h1>
       </header>
-      <section>
+      <section class="weddingplace__transparent-background">
         <h2 class="weddingplace">Wybór sali weselnej/lokalu</h2>
         <p class="weddingplace__p">
           Przy wyborze miejsca na przyjęcie weselne warto wziąć pod uwagę jego
@@ -26,40 +26,41 @@
           Warto porównać przynajmniej dwa lokale lub więcej. Co Wam zapewniają?
           O co musicie sami zadbać?
         </p>
-        <div class="weddingplace__places">
-          <div class="weddingplace__places--place">
-            <b>Lokal nr 1</b>
-          </div>
-          <div class="weddingplace__places--place">
-            <b>Lokal nr 2</b>
-          </div>
-          <div class="weddingplace__places--place">
-            <b>Lokal nr 3</b>
-          </div>
-        </div>
-        <div class="weddingplace__data">
-          Cena lokalu
-        </div>
-        <div class="weddingplace__data">
-          Cena za osobę dorosłą
-        </div>
-        <div class="weddingplace__data">
-          Cena za dziecko
-        </div>
-        <div class="weddingplace__data">
-          Opłata ZAIKS
-        </div>
-        <div class="weddingplace__data">
-          Godzina zakończenia przyjęcia
-        </div>
-        <div class="weddingplace__data">
-          Dekoracja zawarta w cenie
-        </div>
-        <div class="weddingplace__data">
-          Inne
-        </div>
+        <table class="weddingplace__places--table1">
+          <caption>
+              <thead>
+                <tr>
+                      <th> </th>
+                      <th class="weddingplace__places--place">Lokal nr 1</th>
+                      <th class="weddingplace__places--place">Lokal nr 2</th>
+                      <th class="weddingplace__places--place">Lokal nr 3</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Cena lokalu</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Cena za osobę dorosłą</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Cena za dziecko</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Cena ZAIKS</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Godzina zakończenia przyjęcie</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Dekoracja zawarta w cenie</th>
+                </tr>
+                <tr>
+                    <th class="weddingplace__data">Inne</th>
+                </tr>
+              </thead>
+          </caption>
+        </table>
       </section>
-      <section>
+      <section class="weddingplace__transparent-background">
         <h2 class="weddingplace">Wybór sali a planowana liczba gości</h2>
         <p class="weddingplace__p">
           Szukając wymarzonego miejsca na przyjęcie weselne musicie mieć już
@@ -78,24 +79,39 @@
         <p class="weddingplace__mostimportant">
           Nasze wymarzone miejsce na wesele:
         </p>
-        <div class="weddingplace__data">
-          Adres:
-        </div>
-        <div class="weddingplace__data">
-          Telefon:
-        </div>
-        <div class="weddingplace__data">
-          E-mail:
-        </div>
-        <div class="weddingplace__data">
-          Osoba do kontaktu (Manager):
-        </div>
-        <div class="weddingplace__data">
-          Uwagi/Notatki:
-        </div>
-        <br />
+        <table class="weddingplace__places--table2">
+        <caption>
+          <thead>
+            <tr>
+              <th class="weddingplace__data">
+                Adres:
+              </th>
+            </tr>
+            <tr>
+              <th class="weddingplace__data">
+                Telefon:
+              </th>
+            </tr>
+            <tr>
+              <th class="weddingplace__data">
+                Email:
+              </th>
+            </tr>
+            <tr>
+              <th class="weddingplace__data">
+                Osoba do kontaktu (Manager):
+              </th>
+            </tr>
+            <tr>
+              <th class="weddingplace__data">
+                Uwagi, notatki:
+              </th>
+            </tr>
+            </thead>
+            </caption>
+            </table>
       </section>
-      <section>
+      <section class="weddingplace__transparent-background">
         <h2 class="weddingplace">Zdecydowaliście o wyborze lokalu?</h2>
         <h3 class="weddingplace">Sprawdźcie co Wam zapewnia</h3>
         <p class="weddingplace__p">
@@ -109,44 +125,73 @@
           najbardziej Wam się podoba. W obu przypadkach musicie jednak dokładnie
           sprawdzić co dostajecie wynajmując dany lokal.
         </p>
-        <div class="weddingplace__places">
-          <b>Ceny za:</b>
-        </div>
-        <div class="weddingplace__data">
-          Catering (cena od os.):
-        </div>
-        <div class="weddingplace__data">
-          Szwedzkie stoły:
-        </div>
-        <div class="weddingplace__data">
-          Swojskie jadło:
-        </div>
-        <div class="weddingplace__data">
-          Napoje:
-        </div>
-        <div class="weddingplace__data">
-          Dekoracje:
-        </div>
-        <div class="weddingplace__data">
-          Serwetki:
-        </div>
-        <div class="weddingplace__data">
-          Tort:
-        </div>
-        <div class="weddingplace__data">
-          Do tortu (figurki, race, wózek):
-        </div>
-        <div class="weddingplace__data">
-          Paczki z ciastem (dla gości):
-        </div>
-        <div class="weddingplace__data">
-          Szampan:
-        </div>
-        <div class="weddingplace__data">
-          Inne:
-        </div>
+        <table class="weddingplace__places--table3">
+          <caption>
+              <thead>
+                <tr>
+                      <th> </th>
+                      <th class="weddingplace__places--place">Ceny za:</th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Catering (cena od os.):
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Szwedzkie stoły:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Swojskie jadło:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Napoje:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Dekoracje:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Serwetki:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Tort:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Do tortu (figurki, race, wózek):
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                Paczki z ciastem (dla gości):
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Szampan:
+                  </th>
+                </tr>
+                <tr>
+                  <th class="weddingplace__data">
+                  Inne:
+                  </th>
+                </tr>
+              </thead>
+              </caption>
+              </table>
       </section>
-      <section>
+      <section class="weddingplace__transparent-background">
         <h2 class="weddingplace">Podpisanie umowy</h2>
         <h3 class="weddingplace">Zaczynając od początku</h3>
         <p class="weddingplace__p">
@@ -156,7 +201,7 @@
           W ten sposób nie zapomnicie o niczym, co w efekcie odejmie Wam stresu
           w tym najważniejszym dla Was dniu.
         </p>
-        <div class="weddingplace__places">
+        <div class="weddingplace">
           <b>O czym należy pamiętać?</b>
         </div>
         <div class="weddingplace__p">
@@ -269,26 +314,45 @@
           podpiszecie cieszcię się z kolejnego kroku zbliżającego Was do tego
           najpiękniejszego dnia.
         </p>
-        <p class="weddingplace__mostimportant">
-          Nasz cennik za lokal:
-        </p>
-        <div class="weddingplace__data">
-          Zapłaciliśmy w dniu (zaliczka):
-        </div>
-        <div class="weddingplace__data">
-          Sumę:
-        </div>
-        <div class="weddingplace__data">
-          Pozostało do zapłaty:
-        </div>
-        <div class="weddingplace__data">
-          W dniu:
-        </div>
-        <div class="weddingplace__data">
-          Ustalenia/notatki:
-        </div>
+        <table class="weddingplace__places--table2">
+          <caption>
+            <thead>
+              <tr>
+                <th class="weddingplace__data">
+                  Nasz cennik za lokal:
+                </th>
+              </tr>
+              <tr>
+                <th class="weddingplace__data">
+                  Zapłaciliśmy w dniu (zaliczka):
+                </th>
+              </tr>
+              <tr>
+                <th class="weddingplace__data">
+                  Sumę:
+                </th>
+              </tr>
+              <tr>
+                <th class="weddingplace__data">
+                  Pozostało do zapłaty:
+                </th>
+              </tr>
+              <tr>
+                <th class="weddingplace__data">
+                  W dniu:
+                </th>
+              </tr>
+              <tr>
+                <th class="weddingplace__data">
+                  Ustalenia/notatki:
+                </th>
+              </tr>
+              </thead>
+              </caption>
+              </table>
       </section>
-      <section>
+      <br>
+      <section class="weddingplace__transparent-background">
         <h2 class="weddingplace">Termin kontaktu z lokalem</h2>
         <p class="weddingplace__p">
           Pamiętajcie, że przed weselem należy zadzwonić i umówić się na
@@ -298,10 +362,8 @@
         <p class="weddingplace__mostimportant">
           Termin ponownego kontaktu w celu ustalenia szczegółów wesela
         </p>
+        <br>
       </section>
     </main>
-    <footer id="footer">
-      Autor: Justyna Błażejewicz
-    </footer>
   </body>
 </html>
