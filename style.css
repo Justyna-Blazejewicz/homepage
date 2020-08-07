@@ -1,5 +1,5 @@
 .body {
-    background-image: url('Background-main.jpg');
+    background-image: url('Background-mainpage.jpg');
     min-height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -179,7 +179,7 @@ nav a {
 .weddingplace__transparent-background {
     background: #ffffff7e;
     width: 75%;
-    margin: auto;
+    margin: 0px auto;
 }
 
 .titleweddingplace {
@@ -220,17 +220,20 @@ nav a {
 }
 
 .weddingplace__places--table1 {
-    margin: 50px auto;
+    margin: 40px auto;
 }
 
 .weddingplace__places--table2 {
-    margin: 50px 17%;
+    margin: 65px 17%;
 }
 
 .weddingplace__places--table3 {
-    margin: 50px 17%;
+    margin: 46px 17%;
 }
 
+.weddingplace__places--table4 {
+    margin: 15px 17%;
+}
 
 .weddingplace__places--place {
     text-align: center;
@@ -311,4 +314,19 @@ nav a {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 30px;
+}
+
+.background__exercise {
+    background: #322841;
+}
+
+.one {
+    color: #642677;
+    text-align: center;
+    background: #ffc835;
+    border: 3px solid #ffffff;
+    margin: 0px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 20px;
 }
