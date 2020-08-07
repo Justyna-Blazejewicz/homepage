@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
 .body {
     background-image: url('Background-mainpage.jpg');
     min-height: 100vh;
@@ -220,7 +228,7 @@ nav a {
 }
 
 .weddingplace__places--table1 {
-    margin: 40px auto;
+    margin: 55px auto;
 }
 
 .weddingplace__places--table2 {
@@ -228,7 +236,7 @@ nav a {
 }
 
 .weddingplace__places--table3 {
-    margin: 46px 17%;
+    margin: 58px 17%;
 }
 
 .weddingplace__places--table4 {
