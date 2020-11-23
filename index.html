@@ -3,71 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Terminarz ślubny</title>
+    <title>Wedding Planner</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body class="body">
     <main>
-      <img src="The newlyweds.jpg" alt="Para młoda" class="center" />
+      <div class="fixed--box">
       <header>
-        <h1 class="title"><i>Tu zaplanujesz swoje wesele od A do Z!</i></h1>
+        <div class="buttons">
+        <a href="" class="buttons__login"><b>Zaloguj się</b></a>
+        <a href="" class="buttons__register"><b>Zarejestruj się</b></a>
+        </div>
+        <img src="WeddingPlanner.JPG" alt="weddingplanner" class="header">
       </header>
-      <section class="margin">
-        <h2 class="content">Spis treści</h2>
-        <nav>
-          <div class="links">
-            <a href="Introduction.html" class="links__introduction">Wstęp</a>
-          </div>
-          <br />
-          <div class="links">
-            <a href="Wedding place.html" class="links__weddingplace"
-              >Miejsce uroczystości</a
-            >
-          </div>
-          <br />
-          <div class="links">
-            <a href="Menu.html" class="links__menu">Menu</a>
-          </div>
-          <br />
-          <div class="links">
-            <a href="Wedding tables.html" class="links__weddingtables"
-              >Stoły weselne</a
-            >
-          </div>
-          <br />
-          <div class="links">
-            <a href="Wedding binding.html" class="links__weddingbinding"
-              >Oprawa wesela</a
-            >
-          </div>
-          <br />
-          <div class="links">
-            <a href="Ceremony.html" class="links__ceremony">Ceremonia</a>
-          </div>
-          <br />
-          <div class="links">
-            <a href="Newlyweds look.html" class="links__newlywedslook"
-              >Garderoba</a
-            >
-          </div>
-          <br />
-          <div class="links">
-            <a href="Decorations.html" class="links__decorations">Dekoracje</a>
-          </div>
-          <br />
-          <div class="links">
-            <a href="Printing.html" class="links__printing">Poligrafia</a>
-          </div>
-          <br />
-          <div class="links">
-            <a href="Others.html" class="links__others">Dodatkowe</a>
-          </div>
-        </nav>
+      <nav class="nav--panel">
+        <a href="index.html" class="nav--panel__options"><b>Strona główna</b></a>
+        <a href="" class="nav--panel__options"><b>Organizacja ślubu i wesela</b></a>
+        <a href="Contact.html" class="nav--panel__options"><b>Kontakt</b></a>
+      </nav>
+      </div>
+      <section>
+        <img src="ślub1.jpeg" alt="ślub1" class="main--picture">
+        <h2 class="text1">Tu zaplanujesz swój najważniejszy dzień w życiu od A do Z!</h2>
+      </section>
+      <section>
+        <h3 class="text2">Aby w pełni korzystać z funkcjonalności strony zaloguj się na swoje konto</h3>
+        <img src="wesele2.jpg" alt="wesele2" class="wedding--picture">
+      </section>
+      <section>
+        <h3 class="text2">Czym jest Wedding Planner?</h3>
+        <p class="information">Wedding Planner jest stroną stworzoną do planowania ceremonii zaślubin oraz organizacji przyjęcia weselnego we własnym zakresie. Wszelkie pomocne informacje dotyczące tego Wielkiego Dnia znajdziesz właśnie na tej stronie! Dodatkowo możesz stworzyć własne konto, które da Ci dostęp do uzupełniania danych o Twoim Najważniejszym Dniu.
+          Ponadto będziesz miał/miała dostęp do wszystkich informacji gdziekolwiek się znajdziesz używając komputera, laptopa, tabletu czy smartfona.</p>
+      </section>
+      <section>
+        <h3 class="text2">Co zyskasz zakładając konto?</h3>
+        <ol class="text2--table">
+          <li>Pełny dostęp do wszystkich treści strony</li>
+          <li>Pomocne wskazówki podczas planowania poszczególnych wydarzeń</li>
+          <li>Możliwość wprowadzania własnych danych dotyczących ślubu i wesela (data ślubu, miejsce ślubu, adresy, lista gości, wybór fotografa, kamerzysty i wiele wiele innych)</li>
+          <li>Możliwość posiadania wszystkich informacji pod ręką bez konieczności noszenia terminarza w formie papierowej</li>
+        </ol>
       </section>
     </main>
-    <footer class="margin">
-      Autor: Justyna Błażejewicz
+    <footer class="footer">
+      <p class="footer__data"><b>Justyna Błażejewicz</b></p>
+      <p class="footer__data"><b>Wszelkie prawa zastrzeżone</b></p>
     </footer>
     <script src="script.js"></script>
   </body>

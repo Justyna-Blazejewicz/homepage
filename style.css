@@ -2,246 +2,121 @@
     background: #ffffff;;
 }
 
-.title {
-    color: #000000;
-    text-align: center;
+.fixed--box {
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    background: #ffffff;
 }
 
-#footer {
-    margin-top: 100px;
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.buttons__login {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 10px;
+    border: 1px solid #333333;
+    border-radius: 7px;
 }
 
-.content {
-    color: #000000;
-    text-align: center;
+.buttons__register {
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 10px;
+    border: 1px solid #333333;
+    border-radius: 7px;
 }
 
-.main_page-1 {
-    color:#8a6006;
+.header {
+   display: block;
+   margin: 20px 40vw 30px 40vw;
 }
 
-.main_page-2 {
-    color:#585858;
-}
-
-.main_page-3 {
-    color:#ba88fc;
-}
-
-nav a {
-    color:white;
-}
-
-.links {
-    text-align: center;
-}
-
-.links__introduction {
-    background:#8a6006;
-    padding: 10px 70px;
-}
-
-.links__weddingplace {
-    background: #585858;
-    padding: 10px 23px;
-}
-
-.links__menu {
-    background: #ba88fc;
-    padding: 10px 71px;
-}
-
-.links__weddingtables {
-    background: #a72f7f;
-    padding: 10px 45px;
-}
-
-.links__weddingbinding {
-    background: #281d41;
-    padding: 10px 41px;
-}
-
-.links__ceremony {
-    background: #0e0774;
-    padding: 10px 55px;
-}
-
-.links__newlywedslook {
-    background: #09e1e9;
-    padding: 10px 56px;
-}
-
-.links__decorations {
-    background: #69cca3;
-    padding: 10px 57px;
-}
-
-.links__printing {
-    background: #118320;
-    padding: 10px 58px;
-}
-
-.links__others {
-    background: #ff8800;
-    padding: 10px 53px;
-}
-
-.margin {
-    margin: 40px 0px;
-}
-
-.weddingdate {
-    text-align: center;
-    color: #8a6006;
-}
-
-.weddingdate__p {
-    text-align: center;
-}
-
-.weddingdate__mostimportant {
-    margin: auto;
-    width: 30%;
-    text-align: center;
-    border: 3px solid #8a6006;
-    padding: 10px;
-}
-
-.titleintroduction {
-    color: #8a6006;
-    text-align: center;
-}
-
-.weddingdate__interestinginfo {
-    margin: auto;
-    width: 60%;
-    text-align: center;
-    border: 3px solid #8a6006;
-    padding: 10px;
-}
-
-.titleweddingplace {
-    color: #585858;
-    text-align: center;
-}
-
-.weddingplace {
-    text-align: center;
-    color: #585858;
-}
-
-.weddingplace__p {
-    text-align: center;
-}
-
-.weddingplace__list {
-    text-align: left;
-    list-style-position: inside;
-    margin-left: 13vw;
-}
-
-.weddingplace__mostimportant {
-    margin: auto;
-    width: 30%;
-    text-align: center;
-    border: 3px solid #585858;
-    padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.weddingplace__data {
-    margin-left: 20vw;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.weddingplace__places {
-    text-align: center;
-}
-
-.weddingplace__places--place {
-    display: inline;
-    margin: 20px 80px;
-}
-
-.titlemenu {
-    color: #ba88fc;
-    text-align: center;
-}
-
-
-.menu {
-    text-align: center;
-    color: #ba88fc;
+.nav--panel {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     margin-bottom: 20px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: #333333;
+    padding: 5px;
+    background: #fafafa;
 }
 
-.menu__p {
-    text-align: center;
+.nav--panel__options {
+    
+    margin: 10px 10px;
+    font-size: 17px;
+    color: #333333;
+    text-decoration: none;
 }
 
-.menu__data {
-    margin-left: 20vw;
+.main--picture {
+    display: block;
+    margin: 240px auto 0px auto;
+    max-width: 1000px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.menu__mostimportant {
-    margin: auto;
-    width: 65%;
-    text-align: center;
-    border: 3px solid #ba88fc;
-    padding: 10px;
+.text2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 40px; 
 }
 
-.menu__mostimportant--2 {
-    margin: auto;
-    width: 20%;
-    text-align: center;
-    border: 3px solid #ba88fc;
-    padding: 10px;
+.wedding--picture {
+    display: block;
+    margin: 50px auto;
+    max-width: 300px;
 }
 
-.menu__arrangements {
-    margin: auto;
-    width: 30%;
-    text-align: center;
-    border: 3px solid #ba88fc;
-    padding-bottom: 500px;
-    padding-left: 20px;
-    padding-right: 20px;
+.text2--table {
+    margin: 20px 0px;
+    border-bottom: 1px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    padding: 0 28vw 50px 28vw;
+    font-size: 20px;
 }
 
-.menu__buffet {
-    margin: auto;
-    width: 25%;
+.information {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border: 3px solid #ba88fc;
-    padding-bottom: 20px;
+    padding: 0 28vw 50px 28vw;
+    font-size: 20px;
 }
 
-.menu__buffet--question {
-    display: inline;
-    color: #ba88fc;
-    padding-top: 20px;
-    margin: 0px 50px; 
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.menu__buffet--arrangements {
-    margin: auto;
-    color: #ba88fc;
-    width: 30%;
-    text-align: center;
-    border: 3px solid #ba88fc;
-    padding-bottom: 500px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 30px;
+.footer__data {
+    margin-top:0;
+    margin-bottom: 10px;
 }
